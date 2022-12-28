@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section ul li {
+    margin-bottom: 10px;
+  }
+  
+ 
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  section#contact h2 {
+    color: #fff;
+    font-size: 40px;
+  }
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+section#contacts h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 220%;
+}
+.social-media {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+}
+
+.social-media-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fade-in {
+  animation: fade-in 1s ease-in;
+}
+
+@media (max-width: 500px) {
+
+  section#name h2{
+    color: white;
+    margin-left: 32%;
+    padding-top: 5%;
+    font-size: 350%;
+
+  }
+  section#profile{
+    padding-top: 20%;
+  }
+}
+
+
+
+
+
+
+
+  

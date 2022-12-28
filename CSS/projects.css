@@ -1,0 +1,64 @@
+section#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    /* Align the project boxes to the left of the page */
+  }
+  section#projects h2 {
+    color: #fff;
+    font-size: 40px;
+  } 
+ 
+section#projects .project {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 0%;
+    background-color: #2d9187; /* Turquoise color */
+    padding: 10px;
+    width: calc(100vw - 10px); /* Width equal to the width of the viewport minus 10px */
+    height: 300px;
+  }
+  section#projects .project .project-image {
+    width: 30%;
+    height: 30%;
+    position:sticky;
+  }
+  section#projects .project .project-image img {
+    width: 55%;
+    height:300px;
+    width:auto;
+    
+    position: relative;
+    opacity: 1;
+  }
+  section#projects .project .project-info {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-left: 20%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+
+  }
+  
+  section#projects .project .project-info h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 220%;
+  }
+  
+  section#projects .project .project-info p {
+    color: #fff;
+    margin-top: 5%;
+  }
+  
+  section#projects .project .project-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5%;
+  }
+  
+  section#projects .project .project-info a:hover {
+    text-decoration: underline;
+  }

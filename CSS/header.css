@@ -1,0 +1,48 @@
+header {
+    position: fixed; /* Fix the header to a fixed position on the screen */
+    top: 0; /* Position the header at the top of the screen */
+    left: 0; /* Position the header at the left of the screen */
+    right: 0; /* Make the header span the full width of the screen */
+    z-index: 10; /* Make sure the header is displayed above other elements */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black; /* Turquoise color */
+    color: white;
+    padding: 20px;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin:0 20px;
+    background-color: black; /* White background for options */
+    border-radius: 10%; /* Round corners for options */
+    padding: 20px 20px; /* Padding for options */
+    transition: background-color 0.2s, color 0.2s; /* Smooth transition on hover */
+  }
+  
+  header nav a:hover {
+    background-color: white; /* Black background on hover */
+    color: black; /* White text on hover */
+  }
+  
+  header h1 {
+    margin:0;
+  }
+  @media (max-width: 700px) {
+    header nav a{
+      display: none;
+    }
+  
+    section#name h2{
+      color: white;
+      margin-left: 32%;
+      padding-top: 5%;
+      font-size: 350%;
+  
+    }
+    section#profile{
+      padding-top: 20%;
+    }
+  }

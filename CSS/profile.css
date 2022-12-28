@@ -1,0 +1,31 @@
+section#profile h2 {
+    color: #fff;
+    font-size: 60px;
+  }  
+  section#profile {
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  section#profile img {
+    width: 300px;
+    height:300px;
+    border-radius: 55%; /* Increase border radius by 5px */
+    margin: 0 auto; /* Center the profile picture */
+    margin-top: 10%;
+    border: 2px solid #40e0d0; /* Turquoise border */
+  }
+  section#profile h3 {
+    margin-top:505px;
+     /* Reduce top margin to bring text closer to image */
+     color: #fff;
+  }
+  section#name h2{
+    color: white;
+    margin-left: 38%;
+    padding-top: 2%;
+    font-size: 350%;
+
+  }
